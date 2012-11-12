@@ -1,0 +1,29 @@
+This repository contains files for the protyped project done for CodeAcademy.
+
+REQUIREMENTS:
+MongoDB - http://www.mongodb.org/display/DOCS/Quickstart
+
+pymongo - http://api.mongodb.org/python/current/installation.html
+    easy_install pymongo
+
+BeautifulSoup4 - http://www.crummy.com/software/BeautifulSoup/
+    easy_install beautifulsoup4
+
+html5lib - http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+    easy_install html5lib
+
+
+Assuming a MongoDB instance is running on the default host and port, start the program by executing:
+python Main.py
+
+The rest should be self explanatory!
+
+However, to sum up the program (which is still in prototype form), it will find news articles and their corresponding urls, and store that information (along with some other info) in the MongoDB database.Right now, articles are searched for by providing keywords - if the title of an article contains all of the keywords, its information will be written to the database.
+
+At this time, only articles that are in this format will be found successfully:
+<a href="http://cnn.com/example">Article Name, This is Where Keywords Are Checked</a>
+
+The program also allows for some basic abstracted querying by date and by keyword for articles that have already been written to the database.
+
+The process of doing so should be self-explanatory when running the program.
+Let me know if you have any questions/comments!
