@@ -20,10 +20,16 @@ The rest should be self explanatory!
 
 However, to sum up the program (which is still in prototype form), it will find news articles and their corresponding urls, and store that information (along with some other info) in the MongoDB database.Right now, articles are searched for by providing keywords - if the title of an article contains all of the keywords, its information will be written to the database.
 
+The program also allows for some basic abstracted querying by date and by keyword for articles that have already been written to the database.
+
 At this time, only articles that are in this format will be found successfully:
 <a href="http://cnn.com/example">Article Name, This is Where Keywords Are Checked</a>
 
-The program also allows for some basic abstracted querying by date and by keyword for articles that have already been written to the database.
+I recommend only using one keyword to test it - use "war" or "obama".
+If you want to test multiple keyword functionality, use words that will probably be together - you could also explicitly copy some keywords from an article title on a source website like http://cnn.com.
 
-The process of doing so should be self-explanatory when running the program.
+To change the source websites, look at Main.py.
+
+The process of using this program should be self-explanatory once you start it.
 Let me know if you have any questions/comments!
+
