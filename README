@@ -1,4 +1,4 @@
-This repository contains files for the protyped project done for CodeAcademy.
+A quick scraping project to get familiar with MongoDB and pymongo.
 
 REQUIREMENTS:
 MongoDB - http://www.mongodb.org/display/DOCS/Quickstart
@@ -29,7 +29,3 @@ I recommend only using one keyword to test it - use "war" or "obama".
 If you want to test multiple keyword functionality, use words that will probably be together - you could also explicitly copy some keywords from an article title on a source website like http://cnn.com.
 
 To change the source websites, look at Main.py.
-
-The process of using this program should be self-explanatory once you start it.
-Let me know if you have any questions/comments!
-
